@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<traceabilityReport project="PROJECT_NAME" generatedAt="YYYY-MM-DDTHH:MM:SS+09:00" generator="Codex Skill automotive-pytest-unit-test">
+  <testBasis id="REQ-001" type="requirement" source="requirements.md">
+    <title>Requirement title</title>
+    <description>Requirement or design summary.</description>
+    <linkedTestCase id="TC_PACKAGE_MODULE_001" />
+  </testBasis>
+  <testCase id="TC_PACKAGE_MODULE_001" file="tests/test_module.py" function="test_behavior_condition_expected">
+    <title>Test case title</title>
+    <technique>Boundary Value Analysis</technique>
+    <technique>Branch Coverage Analysis</technique>
+    <linkedBasis id="REQ-001" />
+  </testCase>
+</traceabilityReport>
